@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "db": "json-server -w db.json",
-    "tunnel": "ngrok http 3000"
+    "tunnel": "ngrok http 3000",
+    "dev": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^4.0.1",
     "json-server": "^0.16.1",
-    "ngrok": "^3.2.7"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "ngrok": "^3.2.7",
+    "nodemon": "^2.0.2"
   }
 }
